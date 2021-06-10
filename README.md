@@ -1,9 +1,9 @@
 # Markdown Tag for ASP.NET Core 5
 Minimal Markdown Tag Helper for ASP.NET Core 5 
-to render Markdown Content in our Views using [Markdig](https://github.com/xoofx/markdig).
+to render Markdown Content in your Views using [Markdig](https://github.com/xoofx/markdig).
 
 ## Preparations
-Add following packages to our project:
+Add following packages to your project:
 ```bash
 dotnet add package markdig
 dotnet add package Microsoft.AspNetCore.Mvc.TagHelpers
@@ -44,7 +44,7 @@ Add following imports to  ```_ViewImports.cshtml``` (MarkdownTagExample is your 
 @addTagHelper *, MarkdownTagExample
 ```
 ## Usage
-To render Markdown in our View add the tag to our view:
+To render Markdown in our View add the tag to your view:
 ```csharp
 @{
     ViewData["Title"] = "Home Page";
